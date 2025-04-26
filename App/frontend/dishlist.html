@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="darkmode.js" defer></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="indexeddb.js"></script>
+  </head>
+  <body>
+    <header>
+      <button id="theme-switch">
+        <img src=".img/dark_mode_24dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+        <img src=".img/light_mode_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.png" />
+      </button>
+    </header>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Neues Gericht hinzufügen</h2>
+        <form id="add-dish-form">
+          <input type="text" id="dish-name" placeholder="Name des Gerichts" />
+          <button type="submit">Hinzufügen</button>
+        </form>h
+      </div>
+    </div>
+  
+
+<main>
+  <ul id="dish-list"> </ul>
+  <button id="open-modal">
+    <div id="theme-switch">
+      <img src=".img\add_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+      <img src=".img\add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+    </div>
+  </button>
+</main>
+
+        <footer>
+          <div class="footer-button">
+            <button>
+              <div id="theme-switch">
+                <img
+                  src=".img\settings_24dp_000000_FILL0_wght400_GRAD0_opsz24.png"
+                />
+                <img
+                  src=".img\settings_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                />
+              </div>
+            </button>
+           
+            <a href="dishlist.html">
+              <button>
+                <div id="theme-switch">
+                  <img
+                    src=".img\restaurant_24dp_000000_FILL0_wght400_GRAD0_opsz24.png"
+                  />
+                  <img
+                    src=".img\restaurant_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                  />
+                </div>
+              </button>
+            </a>
+          </div>
+        </footer>
+  </body>
+</html>
